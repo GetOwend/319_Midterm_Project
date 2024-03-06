@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="./bootstrap-5.3.2-examples/assets/js/color-modes.js"></script>
+    <script src="./index.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>O & B Hat Catalog</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
+
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+<link href="./bootstrap-5.3.2-examples/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+
+      .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+      }
+    </style>
+
+    
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+      </symbol>
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+      </symbol>
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+      </symbol>
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+      </symbol>
+    </svg>
+
+    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+      <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+              id="bd-theme"
+              type="button"
+              aria-expanded="false"
+              data-bs-toggle="dropdown"
+              aria-label="Toggle theme (auto)">
+        <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
+        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+            Light
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+            Dark
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
+            Auto
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    
+<header data-bs-theme="dark">
+  <div class="collapse text-bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4>Why our hats?</h4>
+          <p class="text-body-secondary">Introducing our collection of hats, where style meets versatility and quality craftsmanship. Crafted with precision and attention to detail, our hats are designed to elevate any ensemble while offering functionality for everyday wear. From classic baseball caps to trendy beanies, sophisticated fedoras to laid-back straw hats, our diverse range ensures there's a perfect option for every occasion and personal style. Whether you're shielding yourself from the sun, staying cozy in chilly weather, or adding a finishing touch to your outfit, our hats are the go-to accessory that effortlessly merges fashion with practicality. Explore our collection and discover the perfect hat to express your unique personality and enhance your wardrobe.</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4>Portal</h4>
+          <ul class="list-unstyled">
+            <li><a href="./index.html" class="text-white">Return Home</a></li>
+            <li><a href="./sweatshirt-catalog.html" class="text-white">Sweatshirt Catalog</a></li>
+            <li><a href="./shoe-catalog.html" class="text-white">Shoe Catalog</a></li>
+            <li><a href="./sunglasses-catalog.html" class="text-white">Sunglasses Catalog</a></li>
+            <li><a href="./authors.html" class="text-white">Authors</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg> -->
+        <strong>Hat Catalog</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Album example</h1>
+        <p class="lead text-body-secondary">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+        <p>
+          <a href="#" class="btn btn-primary my-2">Main call to action</a>
+          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+        </p>
+      </div>
+    </div>
+  </section> -->
+
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col" id="Hat10">
+          <!-- <div > -->
+            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+            <!-- <img src="./images/black_cap.jpg" alt="black cap">
+            <div class="card-body">
+              <p class="card-text">Introducing our classic Black Ball Cap, the timeless accessory that effortlessly merges style with versatility. Crafted with premium materials, this cap features a sleek black design suitable for any occasion, whether it's a casual outing or a sporty adventure. Its adjustable strap ensures a comfortable fit for all head sizes, while the durable construction promises long-lasting wear. Perfect for shielding your eyes from the sun or adding a touch of urban flair to your ensemble, our Black Ball Cap is a must-have staple for every wardrobe, embodying simplicity, functionality, and enduring style.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart:  <strong> $9.99</strong></button>                  
+                </div>
+              </div>
+            </div> -->
+          <!-- </div> -->
+        </div>
+        <div class="col" id="Hat11">
+          <!-- <div > -->
+            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+            <!-- <img src="./images/cowboy_hat.jpg" alt="cowboy hat">
+            <div class="card-body">
+              <p class="card-text">Say howdy to our iconic Cowboy Hat, a symbol of rugged individuality and Western charm. Crafted with precision and attention to detail, this hat exudes authenticity with its wide brim, high crown, and distinctive shape. Made from premium materials, it offers durability and comfort, ensuring it stands up to the rigors of the frontier or adds flair to modern-day adventures. Whether you're wrangling cattle, two-stepping at a honky-tonk, or simply embracing your inner cowboy spirit, our Cowboy Hat is the perfect blend of tradition and style, ready to accompany you on every journey under the open sky.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart:  <strong> $49.99</strong></button>                  
+                </div>
+              </div>
+            </div> -->
+          <!-- </div> -->
+        </div>
+        <div class="col" id="Hat12">
+          <!-- <div > -->
+            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+            <!-- <img src="./images/yellow_beanie.jpg" alt="yellow beanie">
+            <div class="card-body">
+              <p class="card-text">This vibrant Yellow Beanie is a cozy and stylish addition to your cold-weather wardrobe. Crafted with soft and breathable materials, this beanie offers warmth without sacrificing comfort. Its cheerful yellow hue adds a pop of color to any outfit, brightening even the gloomiest of days. Perfect for casual outings, outdoor activities, or simply lounging by the fireplace, our Yellow Beanie is the perfect blend of fashion and function, keeping you snug and stylish all season long.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart:  <strong> $19.99</strong></button>                  
+                </div>
+              </div>
+            </div> -->
+          <!-- </div> -->
+        </div>
+        <div class="col" id="Hat13">
+          <!-- <div > -->
+            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+            <!-- <img src="./images/black_fedora.jpg" alt="black fedora">
+            <div class="card-body">
+              <p class="card-text">Our sophisticated Black Fedora, the epitome of timeless style and debonair charm. Meticulously crafted with high-quality materials, this fedora boasts a sleek black design that exudes understated elegance. With its classic pinched crown and stylish brim, it adds a touch of refinement to any ensemble, whether you're attending a formal event or strolling through the city streets. The adjustable inner band ensures a comfortable and secure fit for all-day wear. Elevate your look with our Black Fedora, the essential accessory for those who appreciate the allure of classic fashion.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart:  <strong> $59.99</strong></button>                  
+                </div>
+              </div>
+            </div> -->
+          <!-- </div> -->
+        </div>
+        <div class="col" id="Hat14">
+          <!-- <div > -->
+            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+            <!-- <img src="./images/ivy_cap.jpg" alt="ivy cap">
+            <div class="card-body">
+              <p class="card-text">The Ivy Cap, a fusion of vintage charm and modern sophistication. Crafted with attention to detail and premium materials, this cap features a timeless ivy design that adds a touch of classic flair to any outfit. With its low-profile silhouette and structured brim, it offers both style and functionality, perfect for casual outings or more formal occasions. The comfortable inner lining ensures a snug fit, while the breathable fabric keeps you cool and comfortable all day long. Elevate your look with our Ivy Cap, the perfect accessory for those who appreciate refined yet effortless style.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart:  <strong> $34.99</strong></button>                  
+                </div>
+              </div>
+            </div> -->
+          <!-- </div> -->
+        </div>
+        <div class="col" id="Hat15">
+          <!-- <div > -->
+            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+            <!-- <img src="./images/puff_ball.jpg" alt="puff ball beanie">
+            <div class="card-body">
+              <p class="card-text">Introducing our Puff Ball Beanie, a playful and cozy accessory to brighten up chilly days. Crafted with soft and plush materials, this beanie features a charming puff ball atop a snug, ribbed knit design. Its vibrant colors and whimsical aesthetic add a touch of fun to any winter ensemble, whether you're hitting the slopes or simply enjoying a stroll in the snow. The stretchy fabric ensures a comfortable and secure fit for all head sizes, while providing warmth and insulation against the cold. Stay stylish and snug with our Puff Ball Beanie, the perfect blend of comfort and whimsy for embracing the winter season with flair.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart:  <strong> $29.99</strong></button>                  
+                </div>
+              </div>
+            </div> -->
+          <!-- </div> -->
+        </div>
+        <div class="col" id="Hat16">
+          <!-- <div > -->
+            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+            <!-- <img src="./images/straw_hat.jpg" alt="straw hat">
+            <div class="card-body">
+              <p class="card-text">Our brand new Straw Hat is a quintessential accessory for sunny days and laid-back vibes. Crafted from natural straw fibers, this hat offers breathability and lightweight comfort, making it ideal for outdoor adventures or leisurely strolls along the beach. Its wide brim provides ample shade, protecting you from the sun's rays while adding a touch of classic style to your look. Whether you're lounging by the pool, attending a garden party, or exploring a new destination, our Straw Hat is the perfect blend of practicality and charm, ensuring you stay cool and chic wherever your summer adventures take you.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart:  <strong> $44.99</strong></button>                  
+                </div>
+              </div>
+            </div> -->
+          <!-- </div> -->
+        </div>
+        <div class="col" id="Hat17">
+          <!-- <div > -->
+            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+            <!-- <img src="./images/quicksilver_cap.jpg" alt="quicksilver cap">
+            <div class="card-body">
+              <p class="card-text">The Quiksilver Cap is the ultimate blend of surf-inspired style and functional design. Crafted with premium materials and meticulous attention to detail, this cap embodies the laid-back spirit of the beach lifestyle. Featuring the iconic Quiksilver logo, it's a symbol of authenticity and adventure. The adjustable strap ensures a personalized fit, while the breathable fabric keeps you cool and comfortable all day long, whether you're catching waves or exploring the boardwalk. From sunrise surf sessions to sunset bonfires, our Quiksilver Cap is the perfect companion for every coastal excursion, embodying the essence of surf culture with every wear.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart:  <strong> $14.99</strong></button>
+                </div>
+              </div>
+            </div> -->
+          <!-- </div> -->
+        </div>
+        <div class="col" id="Hat18">
+          <!-- <div > -->
+            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+            <!-- <img src="./images/sunhat.jpg" alt="sun hat">
+            <div class="card-body">
+              <p class="card-text">Our Sun Hat, the ultimate companion for sun-soaked adventures. Crafted with high-quality, breathable materials, this hat offers superior sun protection while keeping you cool and comfortable. With its wide brim and UPF-rated fabric, it shields your face, neck, and shoulders from harmful UV rays, making it perfect for beach days, picnics, hikes, and outdoor festivals. The adjustable chin strap ensures a secure fit even in breezy conditions, while the versatile design complements any outfit, from swimsuits to sundresses. Whether you're lounging by the pool or exploring new trails, our Sun Hat is your stylish and practical solution for staying safe and chic under the sun.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart:  <strong> $24.99</strong></button>
+                </div>
+              </div>
+            </div> -->
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="text-body-secondary py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+    <!-- <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p> -->
+    <!-- <p class="mb-0">&copy; 2024 Owen Harty and Benjamin Smith</p> -->
+    <p class="mb-1">&copy; 2024 Owen Harty & Benjamin Smith</p>
+  </div>
+</footer>
+<script src="./bootstrap-5.3.2-examples/assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>

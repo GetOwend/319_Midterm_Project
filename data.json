@@ -1,0 +1,328 @@
+{
+"catalog" : 
+    [{
+        "path" : "./images/Sweatshirt1.jpg",
+        "alt" : "Sweatshirt1",
+        "productId" : 0,
+        "description" : "This gray sweatshirt is a comfortable and versatile piece of casual clothing, typically made from soft and breathable fabric, featuring long sleeves, a ribbed waistband, and cuffs, and often chosen for its neutral color that complements various styles",
+        "price" : "19.99",
+        "type" : "sweatshirt"
+        
+    },
+    {
+        "path" : "./images/Sweatshirt2.jpg",
+        "alt" : "Sweatshirt2",
+        "productId" : 1,
+        "description" : "This teal sweatshirt is a stylish and distinctive garment, blending the comfort of a sweatshirt with the vibrant and rich color of teal, adding a pop of uniqueness to casual attire.",
+        "price" : "42.50",
+        "type" : "sweatshirt"
+        
+    },
+    {
+        "path" : "./images/Sweatshirt3.jpg",
+        "alt" : "Sweatshirt3",
+        "productId" : 2,
+        "description" : "This New York-stitched sweatshirt is a trendy and urban-inspired garment featuring distinctive embroidery or stitching that pays homage to the iconic city of New York, adding a touch of metropolitan flair to casual and contemporary fashion.",
+        "price" : "120.00",
+        "type" : "sweatshirt"
+        
+    },
+    {
+        "path" : "./images/Sweatshirt4.jpg",
+        "alt" : "Sweatshirt4",
+        "productId" : 3,
+        "description" : "This green sweatshirt with the phrase \"Good Energy\" is a positive and uplifting piece of clothing, combining a vibrant green color with a motivational message, making it a fashionable and optimistic choice for casual wear.",
+        "price" : "69.99",
+        "type" : "sweatshirt"
+        
+    },
+    {
+        "path" : "./images/Sweatshirt5.jpg",
+        "alt" : "Sweatshirt5",
+        "productId" : 4,
+        "description" : "This bright yellow sweatshirt is a lively and attention-grabbing garment, radiating vibrancy and energy, making it a cheerful and standout addition to casual wardrobes.",
+        "price" : "75.00",
+        "type" : "sweatshirt"
+        
+    },
+    {
+        "path" : "./images/Sweatshirt6.jpg",
+        "alt" : "Sweatshirt6",
+        "productId" : 5,
+        "description" : "This black sweatshirt is a classic and versatile wardrobe staple, offering a timeless and understated aesthetic that effortlessly pairs with various styles, providing comfort and a sleek look for casual or athleisure wear.",
+        "price" : "36.99",
+        "type" : "sweatshirt"
+        
+    },
+    {
+        "path" : "./images/Sweatshirt7.jpg",
+        "alt" : "Sweatshirt7",
+        "productId" : 6,
+        "description" : "This white sweatshirt is a clean and minimalist wardrobe essential, embodying simplicity and versatility, making it an ideal choice for a fresh and timeless look that complements a range of styles and occasions.",
+        "price" : "87.50",
+        "type" : "sweatshirt"
+        
+    },
+    {
+        "path" : "./images/Sweatshirt8.jpg",
+        "alt" : "Sweatshirt8",
+        "productId" : 7,
+        "description" : "This gray sweatshirt offers an alternative shade within the gray spectrum, providing a nuanced and varied option for casual wear that retains the comfort and adaptability associated with this classic color.",
+        "price" : "55.50",
+        "type" : "sweatshirt"
+        
+    },
+    {
+        "path" : "./images/Sweatshirt9.jpg",
+        "alt" : "Sweatshirt9",
+        "productId" : 8,
+        "description" : "This purple sweatshirt is a bold and distinctive choice, infusing a sense of vibrancy and individuality into casual attire, making it a stylish and attention-catching addition to your wardrobe.",
+        "price" : "62.50",
+        "type" : "sweatshirt"
+        
+    },
+    {
+        "path" : "./images/black_cap.jpg",
+        "alt" : "black cap",
+        "productId" : 9,
+        "description" : "Introducing our classic Black Ball Cap, the timeless accessory that effortlessly merges style with versatility. Crafted with premium materials, this cap features a sleek black design suitable for any occasion, whether it's a casual outing or a sporty adventure. Its adjustable strap ensures a comfortable fit for all head sizes, while the durable construction promises long-lasting wear. Perfect for shielding your eyes from the sun or adding a touch of urban flair to your ensemble, our Black Ball Cap is a must-have staple for every wardrobe, embodying simplicity, functionality, and enduring style.",
+        "price" : "9.99",
+        "type" : "hat"
+        
+    },
+    {
+        "path" : "./images/cowboy_hat.jpg",
+        "alt" : "cowboy hat",
+        "productId" : 10,
+        "description" : "Say howdy to our iconic Cowboy Hat, a symbol of rugged individuality and Western charm. Crafted with precision and attention to detail, this hat exudes authenticity with its wide brim, high crown, and distinctive shape. Made from premium materials, it offers durability and comfort, ensuring it stands up to the rigors of the frontier or adds flair to modern-day adventures. Whether you're wrangling cattle, two-stepping at a honky-tonk, or simply embracing your inner cowboy spirit, our Cowboy Hat is the perfect blend of tradition and style, ready to accompany you on every journey under the open sky.",
+        "price" : "49.99",
+        "type" : "hat"
+        
+    },
+    {
+        "path" : "./images/yellow_beanie.jpg",
+        "alt" : "yellow beanie",
+        "productId" : 11,
+        "description" : "This vibrant Yellow Beanie is a cozy and stylish addition to your cold-weather wardrobe. Crafted with soft and breathable materials, this beanie offers warmth without sacrificing comfort. Its cheerful yellow hue adds a pop of color to any outfit, brightening even the gloomiest of days. Perfect for casual outings, outdoor activities, or simply lounging by the fireplace, our Yellow Beanie is the perfect blend of fashion and function, keeping you snug and stylish all season long.",
+        "price" : "19.99",
+        "type" : "hat"
+        
+    },
+    {
+        "path" : "./images/black_fedora.jpg",
+        "alt" : "black fedora",
+        "productId" : 12,
+        "description" : "Our sophisticated Black Fedora, the epitome of timeless style and debonair charm. Meticulously crafted with high-quality materials, this fedora boasts a sleek black design that exudes understated elegance. With its classic pinched crown and stylish brim, it adds a touch of refinement to any ensemble, whether you're attending a formal event or strolling through the city streets. The adjustable inner band ensures a comfortable and secure fit for all-day wear. Elevate your look with our Black Fedora, the essential accessory for those who appreciate the allure of classic fashion.",
+        "price" : "59.99",
+        "type" : "hat"
+        
+    },
+    {
+        "path" : "./images/ivy_cap.jpg",
+        "alt" : "ivy cap",
+        "productId" : 13,
+        "description" : "The Ivy Cap, a fusion of vintage charm and modern sophistication. Crafted with attention to detail and premium materials, this cap features a timeless ivy design that adds a touch of classic flair to any outfit. With its low-profile silhouette and structured brim, it offers both style and functionality, perfect for casual outings or more formal occasions. The comfortable inner lining ensures a snug fit, while the breathable fabric keeps you cool and comfortable all day long. Elevate your look with our Ivy Cap, the perfect accessory for those who appreciate refined yet effortless style.",
+        "price" : "34.99",
+        "type" : "hat"
+        
+    },
+    {
+        "path" : "./images/puff_ball.jpg",
+        "alt" : "puff ball beanie",
+        "productId" : 14,
+        "description" : "Introducing our Puff Ball Beanie, a playful and cozy accessory to brighten up chilly days. Crafted with soft and plush materials, this beanie features a charming puff ball atop a snug, ribbed knit design. Its vibrant colors and whimsical aesthetic add a touch of fun to any winter ensemble, whether you're hitting the slopes or simply enjoying a stroll in the snow. The stretchy fabric ensures a comfortable and secure fit for all head sizes, while providing warmth and insulation against the cold. Stay stylish and snug with our Puff Ball Beanie, the perfect blend of comfort and whimsy for embracing the winter season with flair.",
+        "price" : "29.99",
+        "type" : "hat"
+        
+    },
+    {
+        "path" : "./images/straw_hat.jpg",
+        "alt" : "straw hat",
+        "productId" : 15,
+        "description" : "Our brand new Straw Hat is a quintessential accessory for sunny days and laid-back vibes. Crafted from natural straw fibers, this hat offers breathability and lightweight comfort, making it ideal for outdoor adventures or leisurely strolls along the beach. Its wide brim provides ample shade, protecting you from the sun's rays while adding a touch of classic style to your look. Whether you're lounging by the pool, attending a garden party, or exploring a new destination, our Straw Hat is the perfect blend of practicality and charm, ensuring you stay cool and chic wherever your summer adventures take you.",
+        "price" : "44.99",
+        "type" : "hat"
+        
+    },
+    {
+        "path" : "./images/quicksilver_cap.jpg",
+        "alt" : "quicksilver cap",
+        "productId" : 16,
+        "description" : "The Quiksilver Cap is the ultimate blend of surf-inspired style and functional design. Crafted with premium materials and meticulous attention to detail, this cap embodies the laid-back spirit of the beach lifestyle. Featuring the iconic Quiksilver logo, it's a symbol of authenticity and adventure. The adjustable strap ensures a personalized fit, while the breathable fabric keeps you cool and comfortable all day long, whether you're catching waves or exploring the boardwalk. From sunrise surf sessions to sunset bonfires, our Quiksilver Cap is the perfect companion for every coastal excursion, embodying the essence of surf culture with every wear.",
+        "price" : "14.99",
+        "type" : "hat"
+        
+    },
+    {
+        "path" : "./images/sunhat.jpg",
+        "alt" : "sun hat",
+        "productId" : 17,
+        "description" : "Our Sun Hat, the ultimate companion for sun-soaked adventures. Crafted with high-quality, breathable materials, this hat offers superior sun protection while keeping you cool and comfortable. With its wide brim and UPF-rated fabric, it shields your face, neck, and shoulders from harmful UV rays, making it perfect for beach days, picnics, hikes, and outdoor festivals. The adjustable chin strap ensures a secure fit even in breezy conditions, while the versatile design complements any outfit, from swimsuits to sundresses. Whether you're lounging by the pool or exploring new trails, our Sun Hat is your stylish and practical solution for staying safe and chic under the sun.",
+        "price" : "24.99",
+        "type" : "hat"
+        
+    },
+    {
+        "path" : "./images/Shoe1.jpg",
+        "alt" : "Shoe1",
+        "productId" : 18,
+        "description" : "Elevate your style sustainably with Green Nikes. Designed with eco-friendly materials, these sneakers embody comfort, performance, and a commitment to a greener planet. Step into a brighter future with every stride.",
+        "price" : "124.99",
+        "type" : "shoe"
+        
+    },
+    {
+        "path" : "./images/Shoe2.jpg",
+        "alt" : "Shoe2",
+        "productId" : 19,
+        "description" : "Embrace timeless elegance with our Girls' Brown Boots. These stylish and versatile boots are crafted to complement any outfit, offering a perfect blend of fashion and comfort. From casual outings to special occasions, these boots add a touch of sophistication to every step.",
+        "price" : "54.99",
+        "type" : "shoe"
+        
+    },
+    {
+        "path" : "./images/Shoe3.jpg",
+        "alt" : "Shoe3",
+        "productId" : 20,
+        "description" : "Elevate your style effortlessly with our Checkered Shoes, where classic design meets contemporary cool. These trendy kicks are the perfect blend of timeless elegance and modern flair, ensuring every step is a fashion statement.",
+        "price" : "86.99",
+        "type" : "shoe"
+        
+    },
+    {
+        "path" : "./images/Shoe4.jpg",
+        "alt" : "Shoe4",
+        "productId" : 21,
+        "description" : "Step into vibrant style with our Rainbow Pumas, where every stride is a burst of color and energy. These trendy sneakers seamlessly blend comfort and fashion, making them the perfect choice for those who dare to stand out in a spectrum of style.",
+        "price" : "19.99",
+        "type" : "shoe"
+        
+    },
+    {
+        "path" : "./images/Shoe5.jpg",
+        "alt" : "Shoe5",
+        "productId" : 22,
+        "description" : "Make a bold statement with our Doc Martin Boots, a timeless blend of rugged durability and iconic style. Crafted for comfort and built to last, these boots are the epitome of both fashion and functionality, ensuring you step out with confidence on every urban adventure.",
+        "price" : "74.99",
+        "type" : "shoe"
+        
+    },
+    {
+        "path" : "./images/Shoe6.jpg",
+        "alt" : "Shoe6",
+        "productId" : 23,
+        "description" : "Elevate your look with our High Heels, where sophistication meets style. From sleek and classic designs to trendy and statement-making pairs, our collection is crafted to empower your every step, making you stand tall with confidence and glamour.",
+        "price" : "65.50",
+        "type" : "shoe"
+        
+    },
+    {
+        "path" : "./images/Shoe7.jpg",
+        "alt" : "Shoe7",
+        "productId" : 24,
+        "description" : "Step into luxury with our Golden Nike Trainers, where iconic style meets a touch of opulence. Elevate your athletic fashion game with these trendsetting sneakers, marrying the comfort of Nike with the allure of golden elegance.",
+        "price" : "123.99",
+        "type" : "shoe"
+        
+    },
+    {
+        "path" : "./images/Shoe8.jpg",
+        "alt" : "Shoe8",
+        "productId" : 25,
+        "description" : "Step into understated sophistication with our Beige Adidas collection, where classic design meets modern elegance. Crafted for both style and comfort, these sneakers seamlessly blend into any wardrobe, offering versatility for every occasion. Elevate your everyday look with the timeless appeal of Beige Adidas, setting the standard for casual chic.",
+        "price" : "59.99",
+        "type" : "shoe"
+        
+    },
+    {
+        "path" : "./images/Shoe9.jpg",
+        "alt" : "Shoe9",
+        "productId" : 26,
+        "description" : "Elevate your training with our Colorful Nike Trainers, a dynamic fusion of style and performance. Designed to make a statement, these vibrant sneakers bring a burst of energy to your workout routine. Step into the perfect blend of comfort and trendsetting design, embracing a spectrum of hues that reflect your active lifestyle with every stride.",
+        "price" : "149.99",
+        "type" : "shoe"
+        
+    },
+    {
+        "path" : "./images/sunglasses1.jpg",
+        "alt" : "sunglasses1",
+        "productId" : 27,
+        "description" : "Step into the future with O&B's new Ray Gazers, not to be confused with our line of fabulous shaving gear. These are built with the higest quality glass melted down from the sands of time which was painstakingly collected by our brave adventuring division.",
+        "price" : "124.99",
+        "type" : "sunglasses"
+        
+    },
+    {
+        "path" : "./images/sunglasses2.jpg",
+        "alt" : "sunglasses2",
+        "productId" : 28,
+        "description" : "Introducing our Retro Chic Sunglasses: Classic design meets modern flair with these sleek shades, perfect for adding a touch of vintage sophistication to any ensemble.",
+        "price" : "54.99",
+        "type" : "sunglasses"
+        
+    },
+    {
+        "path" : "./images/sunglasses3.jpg",
+        "alt" : "sunglasses3",
+        "productId" : 29,
+        "description" : "Stay effortlessly chic with our Round Frame Sunglasses: Inspired by vintage aesthetics, these round sunglasses add a playful yet sophisticated touch to your everyday attire.",
+        "price" : "86.99",
+        "type" : "sunglasses"
+        
+    },
+    {
+        "path" : "./images/sunglasses4.jpg",
+        "alt" : "sunglasses4",
+        "productId" : 30,
+        "description" : "Elevate your style with our Aviator Sunglasses: Crafted with premium materials and featuring timeless aviator frames, these sunglasses exude confidence and coolness wherever you go.Crafted with premium materials and featuring timeless aviator frames, these sunglasses exude confidence and coolness wherever you go, making them the ultimate accessory for those who crave classic sophistication.",
+        "price" : "19.99",
+        "type" : "sunglasses"
+        
+    },
+    {
+        "path" : "./images/sunglasses5.jpg",
+        "alt" : "sunglasses5",
+        "productId" : 31,
+        "description" : "Unleash your wild side with our Animal Print Sunglasses: Featuring trendy animal-inspired patterns, these sunglasses add a daring edge to your outfit, perfect for those who love to stand out from the crowd.",
+        "price" : "74.99",
+        "type" : "sunglasses"
+        
+    },
+    {
+        "path" : "./images/sunglasses6.jpg",
+        "alt" : "sunglasses6",
+        "productId" : 27,
+        "description" : "Experience ultimate clarity with our Polarized Sunglasses: Designed to reduce glare and enhance visual comfort, these sunglasses provide unparalleled protection and crisp vision in any environment. Designed to reduce glare and enhance visual comfort, these sunglasses provide unparalleled protection and crisp vision in any environment.",
+        "price" : "124.99",
+        "type" : "sunglasses"
+        
+    },
+    {
+        "path" : "./images/sunglasses7.jpg",
+        "alt" : "sunglasses7",
+        "productId" : 27,
+        "description" : "Shield your eyes in style with our Sporty Tinted Sunglasses: Designed for active lifestyles, these durable shades offer maximum UV protection and a snug fit for all-day comfort.",
+        "price" : "124.99",
+        "type" : "sunglasses"
+        
+    },
+    {
+        "path" : "./images/sunglasses8.jpg",
+        "alt" : "sunglasses8",
+        "productId" : 27,
+        "description" : "Channel retro vibes with our Wayfarer Sunglasses: Timeless and versatile, these iconic shades offer a perfect blend of style and functionality, making them a must-have accessory for every fashion-forward individual.",
+        "price" : "124.99",
+        "type" : "sunglasses"
+        
+    },
+    {
+        "path" : "./images/sunglasses9.jpg",
+        "alt" : "sunglasses9",
+        "productId" : 27,
+        "description" : "Make a statement with our Bold Normal Sunglasses: Embrace your inner Normality with these Normal frames, guaranteed to not turn heads or elevate any look with a touch of any elegance.",
+        "price" : "124.99",
+        "type" : "sunglasses"
+        
+    }
+    ]
+}

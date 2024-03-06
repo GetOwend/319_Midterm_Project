@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="./styles/authors.css">
+        <style>
+            .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0px;
+            }
+            .project {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            }
+            .container-separate {
+                max-width: 960px;
+                margin: 0 auto;
+                padding-bottom: 40px;
+            }
+            
+            </style>
+        <title>O & B Authors</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                <li><a href="./index.html" class="head">Return Home</a></li>
+                <li><a href="./sweatshirt-catalog.html" class="head">Sweatshirt Catalog</a></li>
+                <li><a href="./hat-catalog.html" class="head">Hat Catalog</a></li>
+                <li><a href="./shoe-catalog.html" class="head">Shoe Catalog</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="319">
+            <div class="container-separate">
+                <h1>COM S 319 Midterm Project</h1>
+                <small style="vertical-align: top;"><em>Due March 9, 2024</em></small>
+                <p>Professor Abraham Aldaco</p>
+            </div>
+        </section>
+
+        <section id="Authors">
+            <div class="container">
+                <!-- <img src="./images/profile.jpg" alt="Profile Photo" width=200> -->
+                <h1>Authors</h1>
+                <h3>Owen Harty</h3>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container-separate">
+                <div class="project">
+                <!-- <img src= "./images/project1.png" alt="Project 1"> -->
+                <h4>About Me</h4>
+                <p>I'm a passionate sophomore student with a keen interest in the ever-evolving world of computer science. 
+                    Exploring the intricacies of coding, algorithms, and problem-solving, I thrive on the challenges that come with this dynamic field. 
+                    My journey in computer science is not just about mastering languages; it's about building solutions that make a meaningful impact. 
+                    Eager to learn and contribute, I constantly seek opportunities to expand my knowledge, collaborate with like-minded peers, and embrace 
+                    the exciting possibilities that lie ahead in the realm of technology.</p>
+                </div>
+                <p><strong>Contact me:</strong> <a href="mailto:oharty@iastate.edu">oharty@iastate.edu</a></p>
+                </div>
+        </section>
+
+        <section id="Authors">
+            <div class="container">
+                <!-- <img src="./images/profile.jpg" alt="Profile Photo" width=200> -->
+                <h3>Benjamin Smith</h3>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <div class="project">
+                <!-- <img src= "./images/project1.png" alt="Project 1"> -->
+                <h4>About Me</h4>
+                <p>I'm a junior immersed in the fascinating realm of computer science, where my curiosity fuels a journey of 
+                    discovery and innovation. From unraveling complex algorithms to crafting elegant code, I find joy in the artistry 
+                    of problem-solving. As a student driven by a passion for technology, I thrive on challenges that push the boundaries 
+                    of my knowledge. Whether it's designing software solutions or delving into emerging technologies, I am dedicated 
+                    to honing my skills and contributing to the ever-evolving landscape of computer science. Ready to embrace new 
+                    opportunities and collaborate with fellow enthusiasts, I look forward to making meaningful contributions in this 
+                    exciting field.</p>
+                </div>
+                <p><strong>Contact me: </strong><a href="mailto:bsmith62@iastate.edu">bsmith62@iastate.edu</a></p>
+                </div>
+        </section>
+
+
+        <!-- SOURCE CODE FROM GEEKSFORGEEKS.ORG -->
+        <section id="date">
+            <div class="time">
+                <script type="text/javascript"> 
+                    var myDate = new Date(); 
+                    var myDay = myDate.getDay(); 
+                    
+                    // Array of days. 
+                    var weekday = ['Sunday', 'Monday', 'Tuesday', 
+                        'Wednesday', 'Thursday', 'Friday', 'Saturday' 
+                    ]; 
+                    document.write("Today is : " + weekday[myDay]); 
+                    document.write("<br/>"); 
+                    
+                    // get hour value. 
+                    var hours = myDate.getHours(); 
+                    var ampm = hours >= 12 ? 'PM' : 'AM'; 
+                    hours = hours % 12; 
+                    hours = hours ? hours : 12; 
+                    var minutes = myDate.getMinutes(); 
+                    minutes = minutes < 10 ? '0' + minutes : minutes; 
+                    var myTime = hours + ":" + minutes + " " + ampm;
+                    document.write("\tCurrent time is : " + myTime);
+                </script>
+            </div>
+        </section>
+
+
+        <footer>
+            <p>&copy; 2024 Owen Harty & Benjamin Smith</p>
+        </footer>
+    </body>
+</html>
